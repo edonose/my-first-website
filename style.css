@@ -1,0 +1,57 @@
+html {
+  background: url(images/high-resolution-blue-background-g09nt3i1k5w4dpc1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: beige;
+  width: 550px;
+  margin: 15px auto;
+  border: 5px solid lightblue;
+}
+img {
+  max-height: 200px;
+}
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  text-align: center;
+  font-family: "Poor Story", system-ui;
+}
+ul {
+  box-align: center;
+  font-family: "Poor Story", system-ui;
+}
+
+.INEEDACLASS {
+  font-size: xx-large;
+}
+
+.titlebackground {
+  background-color: lightcyan;
+}
+
+img:hover {
+  border: 3px solid black;
+}
+
+#Lh3 {
+  width: auto;
+  height: auto;
+  background-color: beige;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {
+    background-color: beige;
+  }
+  to {
+    background-color: lightblue;
+  }
+}
